@@ -20,15 +20,14 @@ termini = int( termini )
 pigreco = 0.0
 i = 1
 count = 0
-potenza = -1
 esponente = -1
 
 while count != termini :
 
     if i % 2 != 0 :
-        potenza = potenza * esponente
+        esponente = -esponente
         termine = 4.0 / float( i )
-        termine = termine * potenza
+        termine = termine * esponente
         pigreco = pigreco + termine
         count = count + 1
     i = i + 1

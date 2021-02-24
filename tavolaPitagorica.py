@@ -8,9 +8,7 @@
 # 3   6   9  12  15  18  21  24  27  30
 # ...
 
-a = range( 1, 11, 1 )
-
-for i in a:
-    for j in a:
-        value = i * j
-        print( value )
+for riga in range( 1, 11 ):
+    for colonna in range( 1, 11 ):
+        print( riga * colonna, end=" " )
+    print()

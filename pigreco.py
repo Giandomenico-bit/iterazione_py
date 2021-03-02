@@ -22,7 +22,7 @@ i = 1
 count = 0
 esponente = -1
 
-while count != termini :
+while count < termini :
 
     if i % 2 != 0 :
         esponente = -esponente
